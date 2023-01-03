@@ -1,0 +1,14 @@
+name: 'TOML Check'
+description: 'Checks if you followed the toml format or if you made typos.'
+inputs:
+  path-to-schema-challenges:
+    description: 'Challenges TOML Schema'
+    required: true
+    default: 'templates/challenges-schema.toml'
+  path-to-schema-events:
+    description: 'Events TOML Schema'
+    required: true
+    default: 'templates/events-schema.toml'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
