@@ -1,0 +1,38 @@
+version: '2'
+
+services:
+  bankdb:
+    image: mysql:5.7
+    container_name: bankdb
+    restart: always
+    mem_limit: 34M
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secure-pw
+      MYSQL_USER: user
+      MYSQL_PASSWORD: my-secure-pw
+      MYSQL_DATABASE: bankdb
+      MYSQL_USER_PRIVILEGES: "exampledb.*:SELECT,UNION"
+      MYSQL_INIT_CONNECT: 'SET GLOBAL innodb_buffer_pool_size=1M'
+      MYSQL_INNODB_BUFFER_POOL_SIZE: 1M
+      MYSQL_KEY_BUFFER_SIZE: 1M
+      MYSQL_QUERY_CACHE_SIZE: 0
+      MYSQL_SORT_BUFFER_SIZE: 256K
+      MYSQL_TMP_TABLE_SIZE: 1M
+      MYSQL_MAX_ALLOWED_PACKET: 1M
+      MYSQL_MAX_CONNECTIONS: 10
+      MYSQL_MAX_USER_CONNECTIONS: 5
+    command: ["mysqld", "--performance-schema=OFF"]
+    volumes:
+      - ./bankdb.sql:/docker-entrypoint-initdb.d/bankdb.sql
+    ports:
+      - 3306:3306
+
+  my-php-app:
+    build: .
+    container_name: my-php-app
+    restart: always
+    mem_limit: 6M
+    volumes:
+      - ./login.php:/var/www/html/login.php
+    ports:
+      - 8080:80
