@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-image: url("wide-the-menu.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, p, #message {
+    background-color: white;
+    color: black;
+}
