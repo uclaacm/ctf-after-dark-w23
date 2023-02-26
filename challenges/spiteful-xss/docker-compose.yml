@@ -1,0 +1,16 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "2008:8080"
+    environment:
+      FLAG: "flag{when_has_giving_people_restricted_xss_ever_worked}"
+      ADMINPW: "c1384aa3561fc627a7879521fb505792"
+      REDIS_HOST: "redis"
+      REDIS_PORT: "6379"
+      REDIS_DB: "0"
+    depends_on:
+      - redis
+  redis:
+    image: redis:7-alpine
