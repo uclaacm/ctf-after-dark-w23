@@ -1,6 +1,0 @@
-# npm related files
-node_modules/
-
-# Docker related files
-Dockerfile
-docker-compose.yml

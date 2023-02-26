@@ -8,31 +8,11 @@ const app = express();
 const port = 3000;
 
 // server static files
-app.use('/', express.static("public"));
+app.use('/static', express.static("public"));
 
 // define route
-app.get("/hi", (req, res) => {
-  res.send("Hello World!");
-});
-
-// define challenge route
-app.get("/challenge/:word", (req, res) => {
-  const word = req.params.word;
-  if(word === "flag"){
-    res.send("here's the flag");
-  } else {
-    res.send("Not the flag");
-  }
-});
-
-// define /flag route
-app.get("/flag", (req, res) => {
-  res.send("here's the flag");
-});
-
-//define /cat route
-app.get("/cat", (req, res) => {
-  res.send("flag{cat}"); 
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
 });
 
 // listen for requests
