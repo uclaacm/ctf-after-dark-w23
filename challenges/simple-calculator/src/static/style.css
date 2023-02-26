@@ -1,0 +1,62 @@
+p, h1, h2, input {
+    color: #b39ddb;
+    font-family: "JetBrains Mono", "Cascadia Code", "Fira Code", monospace;
+    text-align: center;
+}
+
+p.item {
+    color: #b2ebf2;
+}
+
+body {
+    background-color: #202020;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p.item::before {
+    content: "* ";
+}
+
+form {
+    width: 100%;
+    padding: 0 25%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+input {
+    font-size: 24px;
+}
+
+input[type=text] {
+    border: 2px solid #b39ddb;
+    border-radius: 10px;
+    background: none;
+    flex-grow: 1;
+}
+
+input[type=submit] {
+    border: 2px solid #b39ddb;
+    color: #b2ebf2;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+slug = "simple-calculator"
+title = "Simple Calculator"
+author = "Jason An"
+value = 20
+description = """[Check out my new calculator!](https://simple-calculator.acmcyber.com/)"""
+tags = [ "lfi" ]
+files = []
+flag = "flag{how_do_i_make_my_calculator_work_for_more_inputs}"
+enabled = true 
