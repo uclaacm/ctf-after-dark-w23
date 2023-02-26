@@ -1,0 +1,9 @@
+slug = "secure-platform"
+title = "Secure Platform"
+author = "Salma"
+value = 15
+description = """Take a look at my super secure [website](https://secure-platform.acmcyber.com). I only let people access the flag I hid there if they're just as secure as I am!"""
+tags = ["intro"]
+files = []
+flag = "flag{sh0uldv3_us3d_n4v1g4t0r}"
+enabled = true
