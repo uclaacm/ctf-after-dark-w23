@@ -1,0 +1,9 @@
+slug = "spiteful-xss"
+title = "Spiteful XSS"
+author = "Jason An"
+value = 30
+description = """Everyone keeps exploiting my site, [so I deleted all the globals.](https://spiteful-xss.acmcyber.com/)"""
+tags = [ "xss" ]
+files = []
+flag = "flag{when_has_giving_people_restricted_xss_ever_worked}"
+enabled = true 

@@ -33,7 +33,7 @@ def calculate():
     elif query == "1+2*3":
         result = "9"
     else:
-        result = "x for some x"
+        result = "x for some number x"
     return render_template("index.html", query=query, result=result)
 
 @app.route("/", methods=["GET"])
