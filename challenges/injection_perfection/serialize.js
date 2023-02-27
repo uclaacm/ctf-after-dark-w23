@@ -5,18 +5,18 @@ console.log('here');
 console.log(process.env);
 
 const users = [
-	{ username: 'joe', password: 'bruin', fav_color: 'blue' },
-	{ username: 'gamerboy80', password: 'bedwarsplayersarelikefliesexceptflies', fav_color: 'red' },
-	{ username: 'admin', password: 'ad28b35084eabdb7edd22df20378748eb7575aef1342775f151efdc79abda430', fav_color: process.env.FLAG },
+    { username: 'joe', password: 'bruin', fav_color: 'blue' },
+    { username: 'gamerboy80', password: 'bedwarsplayersarelikefliesexceptflies', fav_color: 'red' },
+    { username: 'admin', password: 'ad28b35084eabdb7edd22df20378748eb7575aef1342775f151efdc79abda430', fav_color: process.env.FLAG },
 ];
 
 db.serialize(() => {
-	db.run('CREATE TABLE users (username TEXT, password TEXT, fav_color TEXT)');
-	const stmt = db.prepare('INSERT INTO users VALUES (?, ?, ?)');
+    db.run('CREATE TABLE users (username TEXT, password TEXT, fav_color TEXT)');
+    const stmt = db.prepare('INSERT INTO users VALUES (?, ?, ?)');
 
-	users.forEach(user => {
-		stmt.run(user.username, user.password, user.fav_color);
-	});
+    users.forEach(user => {
+        stmt.run(user.username, user.password, user.fav_color);
+    });
 
-	stmt.finalize();
+    stmt.finalize();
 });
