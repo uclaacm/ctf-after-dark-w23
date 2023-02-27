@@ -1,0 +1,9 @@
+slug = "bagels"
+title = "Bagels"
+author = "Audrey"
+value = 10
+description = """Only a true bagel lover can find the flag: https://246012460124601.github.io/"""
+tags = [ "intro" ]
+files = []
+flag = "flag{d1d_y0u_kn0w_1_1iK3_b4g3ls}"
+enabled = true 
