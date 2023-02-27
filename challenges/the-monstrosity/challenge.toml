@@ -3,7 +3,7 @@ title = "The Monstrosity(ies?)"
 author = "Marius"
 value = 20
 description = """
-The [cryptozoologist community of Los Angeles](https://mariusgen1.github.io/#/reallylongandshadyurlthatleadstoashadylookingwebsitethatshoulddefinitelynotbetrusted) has been working hard to get their website up, but it seems like some malicius hackers have hacked the website and hidden a secret message in a file that should be named **supershadystuff.txt** somewhere in the website's files. I'm wondering what it might contain..."""
+The [cryptozoologist community of Los Angeles](https://mariusgen1.github.io/#/reallylongandshadyurlthatleadstoashadylookingwebsitethatshoulddefinitelynotbetrusted) has been working hard to get their website up, but it seems like some malicius people have hacked the website and hidden a secret message in a file that should be named **supershadystuff.txt** somewhere in the website's files. I'm wondering what it might contain..."""
 tags = ["XSS"]
 files = []
 flag = "lag{wh4t_3v3n_1s_crypt0z0o10gy}"
