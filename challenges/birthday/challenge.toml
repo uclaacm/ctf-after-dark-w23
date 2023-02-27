@@ -1,0 +1,9 @@
+slug = "birthday"
+title = "Birthday"
+author = "Savannah Alanis"
+value = 10
+description = """My friend made a comment about her birthday coming up soon, but I can't remember when it is. Can you figure it out for me?"""
+tags = [ "intro" ]
+files = []
+flag = "flag{SaTuRdAy_MaRcH_eIgHtEeNtH}"
+enabled = true 
