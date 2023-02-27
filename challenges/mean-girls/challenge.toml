@@ -1,0 +1,9 @@
+slug = "mean-girls"
+title = "Mean Girls"
+author = "Laura"
+value = 10
+description = """Get in loser, we're going shopping. But only if you're [fetch enough](https://lness02.github.io/meangirls/)!"""
+tags = [ "intro" ]
+files = []
+flag = "flag{on_w3dn3sd4ys_w3_we4r_p1nk}"
+enabled = true 
