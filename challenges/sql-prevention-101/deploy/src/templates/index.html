@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1>Welcome my website</h1>
+<p>I have something cool hidden in the username "admin", but you'll never get in...</p>
+{% if error %}
+<h1>{{ error }}</h1>
+{% endif %}
+<div style="white-space:pre-wrap" th:text="${message}" />
+<br>
+<form action="/" method="post">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username"><br><br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
