@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head> <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>normal website</h1>
+        <img src="meme.jpg">
+        <button type="button" onclick="changeCookie()">get cookie!</button>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg">
+        <img src="https://www.verybestbaking.com/sites/g/files/jgfbjl326/files/srh_recipes/4bc5edb86285aadc28069f51d9e98974.jpg">
+        <img src="https://recipetineats.com/wp-content/uploads/2019/12/Christmas-Cookies-Sugar-Cookies_7.jpg">
+        <script>
+            function changeCookie() {
+                document.cookie = "secret=" + Math.floor(Math.random() * 1000);
+                location.reload();
+            }
+        </script>
+    </body>
+</html>
