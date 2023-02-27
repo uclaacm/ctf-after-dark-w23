@@ -1,0 +1,13 @@
+slug = "no-fetch"
+title = "No Fetch?!?!"
+author = "bliutech"
+value = 30
+description = """
+The easest XSS ever! But wait... no fetch? Visit the challenge at [http://ao.bliu.tech:9090].
+
+The admin bot for this challenge is at [https://admin-bot.acmcyber.com/no-fetch](https://admin-bot.acmcyber.com/no-fetch)
+"""
+tags = ["XSS"]
+files = []
+flag = "flag{x5s_v7a_an_0p3n_w1n80w}"
+enabled = true

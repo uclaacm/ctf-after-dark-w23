@@ -8,3 +8,5 @@ services:
     environment:
       CHALL_SPITEFUL_XSS_ADMINPW: "c1384aa3561fc627a7879521fb505792"
       CHALL_SPITEFUL_XSS_DOMAIN: "spiteful-xss.acmcyber.com"
+      CHALL_NO_FETCH_COOKIE: "flag{x5s_v7a_an_0p3n_w1n80w}"
+      CHALL_NO_FETCH_DOMAIN: "ao.bliu.tech"

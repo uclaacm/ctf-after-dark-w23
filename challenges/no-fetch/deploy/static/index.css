@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+form > textarea {
+    width: 40%;
+    min-height: 10rem;
+    display: block;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin: 1rem;
+}
