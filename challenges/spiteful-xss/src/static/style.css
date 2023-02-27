@@ -77,3 +77,8 @@ button {
 button:hover, button:focus {
     background-color: var(--accent-shade);
 }
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
