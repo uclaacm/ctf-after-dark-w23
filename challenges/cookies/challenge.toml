@@ -1,7 +1,7 @@
 slug = "cookies"
 title = "Cookies"
 author = "Emily Sun"
-value = 10
+value = 20
 description = """I have a trade offer for you. The challenge is at [https://cookies.acmcyber.com](https://cookies.acmcyber.com)"""
 tags = [ "intro" ]
 files = []
