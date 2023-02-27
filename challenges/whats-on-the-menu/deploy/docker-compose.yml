@@ -1,5 +1,6 @@
 services:
-  app:
+  whats-on-the-menu:
+    image: whats-on-the-menu
     build: .
     restart: always
     ports:
