@@ -1,0 +1,27 @@
+body {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    height: 10rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgb(101, 64, 0);
+    color: white;
+    border-radius: 5%;
+    font-size: 36px;
+}
