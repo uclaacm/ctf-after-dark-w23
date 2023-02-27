@@ -14,6 +14,14 @@ def get_flag():
     else:
         return ("no flag for you >:(", 400)
 
+@app.route("/source", methods=["GET"])
+def view_source():
+    try:
+        with open(__file__, "r") as f:
+            return Response(f.read(), mimetype="text/plain")
+    except (IOError, NameError):
+        return ("Couldn't read source file", 500)
+
 @app.route("/post", methods=["POST"])
 def make_post():
     content = request.form.get("content", "")
