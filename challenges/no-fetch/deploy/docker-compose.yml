@@ -1,5 +1,6 @@
 services:
-  app:
+  no-fetch:
+    image: no-fetch
     build: .
     restart: always
     ports:
