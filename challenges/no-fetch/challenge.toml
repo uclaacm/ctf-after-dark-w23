@@ -1,7 +1,7 @@
 slug = "no-fetch"
 title = "No Fetch?!?!"
 author = "bliutech"
-value = 30
+value = 20
 description = """
 The easest XSS ever! But wait... no [fetch](app.py)? Visit the challenge at [http://ao.bliu.tech:9090].
 
