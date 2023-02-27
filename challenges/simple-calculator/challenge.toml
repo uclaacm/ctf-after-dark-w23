@@ -1,7 +1,7 @@
 slug = "simple-calculator"
 title = "Simple Calculator"
 author = "Jason An"
-value = 20
+value = 30
 description = """[Check out my new calculator!](https://simple-calculator.acmcyber.com/)"""
 tags = [ "lfi" ]
 files = []
