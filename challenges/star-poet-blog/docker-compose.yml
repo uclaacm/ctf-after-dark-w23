@@ -1,0 +1,11 @@
+# docker-compose.yml services
+services:
+  # name of service
+  app:
+    # name of image
+    image: app
+    # build from Dockerfile
+    build: app/.
+    # ports to expose "external:internal"
+    ports:
+      - "3000:3000"

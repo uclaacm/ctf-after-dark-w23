@@ -1,0 +1,9 @@
+slug = "star-poet-blog"
+title = "Star Poet Blog"
+author = "Michelle"
+value = 10
+description = """oh dear... someone finding my password.txt i could not bear... but no fear... encrypted it i did to make it unclear... (*note: flag is all lowercase)"""
+tags = [ "lfi" ]
+files = []
+flag = "flag{sepulchre_tombstone_spirit_grains_nevermore}"
+enabled = true 
