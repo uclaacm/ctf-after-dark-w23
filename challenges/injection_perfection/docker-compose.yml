@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    environment:
+      FLAG: flag{red_is_the_best_color_fight_me_you_wont}
+    ports:
+      - 10678:8080

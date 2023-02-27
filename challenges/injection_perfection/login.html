@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Secure Login</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./style.css" type="text/css">
+<style>
+    * {
+        font-family: 'Raleway';
+    }
+
+    .main {
+        display: block;
+        margin: 10% auto 10% auto;
+        width: 25%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    .input-box {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        width: 100%;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <h1> Admin Login: </h1>
+        <form action="/" method="POST">
+            <label for="username">Username:</label><br>
+            <input class="input-box" type="text" name="username" placeholder="username" /><br>
+            <label for="password">Password:</label><br>
+            <input class="input-box" type="password" name="password" placeholder="password" /><br>
+            <button><input type="submit" /></button>
+        </form>
+    </div>
+</body>
+
+</html>
