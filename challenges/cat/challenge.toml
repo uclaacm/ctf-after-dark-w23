@@ -1,0 +1,9 @@
+slug = "cat"
+title = "Cat"
+author = "Savannah"
+value = 10
+description = """Oh no my cat isn't don't so well, I think she's sick. [How can I help her get better?](https://savannahalanis.github.io/cat)"""
+tags = [ "intro" ]
+files = []
+flag = "flag{ChAng3_Th3_BaTt3r13s}"
+enabled = true 
