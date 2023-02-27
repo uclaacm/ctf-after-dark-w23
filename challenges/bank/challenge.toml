@@ -1,7 +1,7 @@
 slug = "bank"
 title = "Bank"
 author = "Daniel Ynag"
-value = 10
+value = 20
 description = """This is a bank. I hate php very much. [Here](https://bank.acmcyber.com/)"""
 tags = [ "sqli" ]
 files = []
