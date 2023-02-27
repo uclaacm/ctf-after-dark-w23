@@ -1,7 +1,7 @@
 slug = "whats-on-the-menu"
 title = "What's on the Menu?"
 author = "bliutech"
-value = 15
+value = 20
 description = """You're invited to Hawthorne, the restaurant of world famous chef, Julian Slowik. Try to order something on *the Menu*. Visit [https://ao.bliu.tech:8080](https://ao.bliu.tech:8080)."""
 tags = ["intro"]
 files = []
