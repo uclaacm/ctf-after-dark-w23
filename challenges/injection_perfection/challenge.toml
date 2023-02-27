@@ -1,0 +1,9 @@
+slug = "injection-perfection"
+title = "Injection Perfection"
+author = "Rory"
+value = 20
+description = """After port scanning the acmcyber site, I found [this](https://injection-perfection.acmcyber.com/) hidden login page. After bruteforcing I discovered the user: joe, has the password: bruin, but I didn't find anything useful. Can you log in as admin? [source](src.tar.gz)"""
+tags = [ "sqli" ]
+files = [ "src.tar.gz" ]
+flag = "flag{red_is_the_best_color_fight_me_you_wont}"
+enabled = true

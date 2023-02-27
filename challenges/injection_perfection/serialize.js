@@ -7,7 +7,7 @@ console.log(process.env);
 const users = [
 	{ username: 'joe', password: 'bruin', fav_color: 'blue' },
 	{ username: 'gamerboy80', password: 'bedwarsplayersarelikefliesexceptflies', fav_color: 'red' },
-	{ username: 'admin', password: 'ad28b35084eabdb7edd22df20378748eb7575aef1342775f151efdc79abda430', fav_color: 'flag{red_is_the_best_color_fight_me_you_wont}' },
+	{ username: 'admin', password: 'ad28b35084eabdb7edd22df20378748eb7575aef1342775f151efdc79abda430', fav_color: process.env.FLAG },
 ];
 
 db.serialize(() => {

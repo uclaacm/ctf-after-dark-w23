@@ -5,6 +5,7 @@ COPY . /app
 
 RUN npm ci
 
+ENV FLAG=flag{red_is_the_best_color_fight_me_you_wont}
 RUN node /app/serialize.js
 RUN chmod 444 app.db 
 
