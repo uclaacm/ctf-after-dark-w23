@@ -1,7 +1,7 @@
 slug = "spiteful-xss"
 title = "Spiteful XSS"
 author = "Jason An"
-value = 30
+value = 40
 description = """Everyone keeps exploiting my site, [so I deleted all the globals.](https://spiteful-xss.acmcyber.com/)
 
 [Admin Bot](https://admin-bot.acmcyber.com/spiteful-xss)"""
