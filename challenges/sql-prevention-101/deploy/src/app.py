@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import mariadb
+from mysql import connector
 
 app = Flask(__name__)
 
@@ -20,7 +20,7 @@ def index():
         if "--" in user or "--" in password:
             error = "No double dashes! I knew you would try an SQL injection..."
         else:
-            connection = mariadb.connect(**config)
+            connection = connector.connect(**config)
             cur = connection.cursor()
             query = f"SELECT * FROM user WHERE username = '{user}' AND password = '{password}'"
             cur.execute(query)
