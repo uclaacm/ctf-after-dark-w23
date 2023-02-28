@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  app:
+    build: ./src
+    networks:
+      - app-network
+    ports:
+      - 5001:5000
+    depends_on:
+      - db
+    links:
+      - db
+  
+  db:
+    build: ./db
+    networks:
+      - app-network
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: appdb
+      MYSQL_USER: app
+      MYSQL_PASSWORD: password
+
+networks:
+  app-network:
+    driver: bridge
