@@ -1,7 +1,7 @@
 slug = "sql-prevention-101"
 title = "SQL Prevention-101"
 author = "Gary"
-value = 30
+value = 20
 description = """Just try to hack my [login](https://sql-prevention-101.acmcyber.com/) with account "admin", I've taken all the precautions that I can..."""
 tags = ["SQL"]
 files = []
