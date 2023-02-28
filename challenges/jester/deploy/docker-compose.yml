@@ -1,0 +1,6 @@
+services:
+  jester:
+    build: .
+    ports:
+      - "2002:3000"
+    restart: always

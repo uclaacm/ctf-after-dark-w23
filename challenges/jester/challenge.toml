@@ -1,0 +1,9 @@
+slug = "jester"
+title = "Jester"
+author = "Jerry"
+value = 30
+description = """You are a jester, whose entire life's purpose was to keep the royal family happy and entertained. However, the princess is having some trouble finishing her math homework, and she is about to burst into tears as she stares at the lifeless sheet of paper, as thin as the number of brain cells floating around in her royal brain. If you don't keep her happy, the king and queen can easily chop off your head. Do you think you can save yourself and help keep the royal family from collapsing because of some [quick maths](https://jester.acmcyber.com)?"""
+tags = [ "intro" ]
+files = []
+flag = "flag{you_ar3_not_a_c1own_you_ar3_th3_3ntir3_circus}"
+enabled = true 
