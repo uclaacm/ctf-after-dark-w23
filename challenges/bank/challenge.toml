@@ -5,5 +5,5 @@ value = 20
 description = """This is a bank. I hate php very much. [Here](https://bank.acmcyber.com/login.php)"""
 tags = [ "sqli" ]
 files = []
-flag = "flag{ifrigginhatephpkillmenow}"
+flag = "flag{3min3m_kind@_wa$hed}"
 enabled = true 
