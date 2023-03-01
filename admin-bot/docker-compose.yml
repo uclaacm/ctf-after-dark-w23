@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "4000:8080"
+      - "2005:8080"
     privileged: true
     environment:
       CHALL_SPITEFUL_XSS_ADMINPW: "c1384aa3561fc627a7879521fb505792"

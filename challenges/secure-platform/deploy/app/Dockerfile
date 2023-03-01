@@ -7,8 +7,8 @@ COPY . /
 # Installs dependencies
 RUN npm install
 
-# Exposes port 3000
-EXPOSE 3000
+# Exposes port 8041 (internal)
+EXPOSE 8041
 
 # Runs the app
 CMD [ "node", "app.js" ]

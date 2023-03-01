@@ -1,11 +1,11 @@
 # docker-compose.yml services
 services:
   # name of service
-  app:
+  star-poet-blog:
     # name of image
-    image: app
+    image: star-poet-blog
     # build from Dockerfile
     build: app/.
     # ports to expose "external:internal"
     ports:
-      - "3000:3000"
+      - "8888:3000"

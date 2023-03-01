@@ -1,11 +1,11 @@
 # docker-compose.yml services
 services:
   # name of service
-  app:
+  salma-secure-platform:
     # name of image
-    image: app
+    image: salma-secure-platform
     # build from Dockerfile
     build: app/.
     # ports to expose "external:internal"
     ports:
-      - "3000:3000"
+      - "2014:8041"

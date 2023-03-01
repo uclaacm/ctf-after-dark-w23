@@ -1,9 +1,9 @@
 # docker-compose.yml services
 services:
   # name of service
-  app:
+  cookies:
     # name of image
-    image: app
+    image: cookies
     # build from Dockerfile
     build: .
     # ports to expose "external:internal"

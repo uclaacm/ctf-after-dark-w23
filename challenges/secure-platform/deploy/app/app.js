@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 // define port
-const port = 3000;
+const port = 8041;
 
 // server static files
 app.use('/static', express.static("public"));

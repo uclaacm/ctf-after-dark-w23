@@ -1,6 +1,7 @@
 services:
   jester:
+    image: jester
     build: .
     ports:
-      - "2002:3000"
+      - "6666:3000"
     restart: always
