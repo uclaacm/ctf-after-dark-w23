@@ -5,5 +5,5 @@ value = 20
 description = """I have a trade offer for you. The challenge is at [https://cookies.acmcyber.com](https://cookies.acmcyber.com)"""
 tags = [ "intro" ]
 files = []
-flag = "flag{flag{c00k135_g0_brrr}}"
+flag = "flag{c00k135_g0_brrr}"
 enabled = true 
