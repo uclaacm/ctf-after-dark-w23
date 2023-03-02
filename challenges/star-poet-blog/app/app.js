@@ -8,12 +8,7 @@ const app = express();
 const port = 3000;
 
 // server static files
-app.use('/static', express.static("public"));
-
-// define route
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/public/index.html");
-});
+app.use('/', express.static("public"));
 
 // listen for requests
 app.listen(port, () => {
