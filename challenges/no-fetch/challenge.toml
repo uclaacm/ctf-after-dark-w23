@@ -3,7 +3,7 @@ title = "No Fetch?!?!"
 author = "bliutech"
 value = 20
 description = """
-The easest XSS ever! But wait... no [fetch](app.py)? Visit the challenge at [http://ao.bliu.tech:9090].
+The easest XSS ever! But wait... no [fetch](app.py)? Visit the challenge at [http://ao.bliu.tech:9090](http://ao.bliu.tech:9090).
 
 The admin bot for this challenge is at [https://admin-bot.acmcyber.com/no-fetch](https://admin-bot.acmcyber.com/no-fetch). The flag is in the admin bot's cookies.
 """
