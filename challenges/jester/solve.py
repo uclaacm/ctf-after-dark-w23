@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import math
 import hashlib
 
-url = "http://localhost:2002/"
+url = "https://jester.acmcyber.com/"
 
 page1 = requests.get(url)
 

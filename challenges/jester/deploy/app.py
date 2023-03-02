@@ -88,7 +88,7 @@ def validate():
                         error_msg = "Sorry, " + str(num1) + " + " + str(num2) + " is not equal to " + str(answer)
                         return render_template('index.html', num1=num1, num2=num2, error=error_msg)
                     resp = make_response(render_template('part2.html', a=a, b=b, c=c))
-                    resp.set_cookie('part2', str(hash("true")))
+                    resp.set_cookie('part2', hashlib.sha256(b"True").hexdigest())
                     return resp
         return render_template('index.html', num1=num1, num2=num2)
     except:
